@@ -19,7 +19,7 @@
 			text-align: left;
 			display: inline-block;
 			max-width: 50rem;
-			line-height: 0.5em;
+			line-height: 1em;
 		}
 	</style>
 </head>
