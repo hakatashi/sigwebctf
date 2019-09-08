@@ -1,0 +1,14 @@
+{
+  "name": "headless-chrome-runner",
+  "version": "1.0.0",
+  "description": "Headless Chrome runner",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "latest",
+    "puppeteer":"latest",
+    "pug":"latest"
+  }
+}

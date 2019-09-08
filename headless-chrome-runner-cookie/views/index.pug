@@ -1,0 +1,22 @@
+html
+  head
+    title Admin Browser Console
+    style
+      include bootstrap.min.css
+  body
+    nav.navbar.navbar-dark.bg-dark.mb-4
+      .container
+        a(class='navbar-brand mb-0 h1' href='/') Admin Browser Console 2
+    .container
+      div(class='alert alert-primary' role='alert') これはAdminのブラウザを操作できる画面です。Adminのブラウザのcookieに書かれたflagを盗み出してください。
+      form
+        .form-row
+          .col
+            input(class='form-control' name='url' placeholder='https://example.com' value=url)
+          button(type='submit' class='btn btn-primary') Submit
+
+      if response
+        pre
+          code= response
+      if flag
+        code= flag
