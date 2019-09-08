@@ -3,6 +3,6 @@ services:
   app:
     image: php:7-apache
     ports:
-      - '8080:80'
+      - '10004:80'
     volumes:
       - ./html:/var/www/html
