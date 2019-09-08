@@ -1,0 +1,19 @@
+version: '3'
+services:
+  app:
+    build: .
+    ports:
+      - '8080:80'
+    volumes:
+      - ./html:/var/www/html
+    links:
+      - mysql
+    environment:
+      - FLAG=SWCTF{now_listening_natsu_owaranaide}
+  mysql:
+    image: mysql:5.7
+    volumes:
+      - ./schema.sql:/docker-entrypoint-initdb.d/schema.sql
+    environment:
+      MYSQL_ROOT_PASSWORD: ''
+      MYSQL_ALLOW_EMPTY_PASSWORD: 'yes'
