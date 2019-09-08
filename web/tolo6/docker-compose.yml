@@ -7,4 +7,4 @@ services:
     volumes:
       - ./html:/var/www/html
     environment:
-      - FLAG=SWCTF{wow_you're_so_lucky_wow}
+      - FLAG=SWCTF{now_listening_funbare_runner}
