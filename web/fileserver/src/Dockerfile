@@ -7,4 +7,4 @@ RUN apk add --no-cache build-base sqlite-dev sqlite-libs && \
         bundle install && \
         apk del --purge build-base sqlite-dev
 
-CMD cd /app && bundle exec puma -C puma.rb
+CMD cd /app && bundle exec ruby app.rb
