@@ -31,7 +31,7 @@
 	<div class="content">
 		<h1>Crosses👿</h1>
 		<?php if (isset($_GET['name'])) { ?>
-				こんにちは、<img width="50" height="50" src="<?= preg_replace("/[<>]/", "", $_GET['name']) ?>">さん！
+			こんにちは、<img width="50" height="50" src="<?= preg_replace("/[<>]/", "", $_GET['name']) ?>">さん！
 		<?php } else { ?>
 			<p>あなたのアイコン画像のURLを教えてください！</p>
 			<p>
