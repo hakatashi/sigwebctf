@@ -7,3 +7,5 @@ services:
       - '10060:9292'
     volumes:
       - ./src:/app
+    environment:
+      - FLAG=SWCTF{now_listening_algorithmic_everyday}
