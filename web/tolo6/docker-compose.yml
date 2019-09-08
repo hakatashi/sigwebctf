@@ -3,7 +3,7 @@ services:
   app:
     image: php:7-apache
     ports:
-      - '8080:80'
+      - '10030:80'
     volumes:
       - ./html:/var/www/html
     environment:
