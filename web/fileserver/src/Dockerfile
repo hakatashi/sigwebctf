@@ -1,10 +1,8 @@
-FROM ruby:2.6.3-alpine
+FROM ruby:2.6.4-alpine
 
 COPY . /app
-RUN apk add --no-cache build-base sqlite-dev sqlite-libs && \
-        cd /app && \
-        gem install bundler && \
-        bundle install && \
-        apk del --purge build-base sqlite-dev
+RUN cd /app && \
+    gem install bundler && \
+    bundle install
 
 CMD cd /app && bundle exec ruby app.rb
