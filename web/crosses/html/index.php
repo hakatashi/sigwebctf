@@ -33,9 +33,7 @@
 				</form>
 			</p>
 
-			<pre>
-				<?php highlight_string(file_get_contents(basename(__FILE__))); ?>
-			</pre>
+			<pre><?php highlight_string(file_get_contents(basename(__FILE__))); ?></pre>
 		<?php } ?>
 	</div>
 </body>
