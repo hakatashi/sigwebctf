@@ -3,13 +3,12 @@ require 'mimemagic'
 require 'fileutils'
 require 'securerandom'
 
-FileUtils.mkdir_p('/tmp/flags')
-File.write("/tmp/flags/#{SecureRandom.hex(10)}.txt", ENV['FLAG'])
+FileUtils.mv('flag.txt', "/tmp/flags/#{SecureRandom.hex(10)}.txt")
 
 server = WEBrick::HTTPServer.new :Port => 9292
 
 server.mount_proc '/' do |req, res|
-  path = req.path.tr("*?[]{}", '').gsub(/^\/+/, '')
+  path = req.path.tr("*?[]{}", '#').gsub(/^\/+/, '')
 
   if req.path.end_with? '/'
     if path.include? '.'
