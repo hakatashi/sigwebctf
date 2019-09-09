@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Achievement Viewer</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+		<style>
+			.achievements-count {
+				white-space: nowrap;
+			}
+			.achievements-progress {
+				display: flex;
+				align-items: center;
+			}
+			.achievements-color {
+				height: 0.3rem;
+			}
+			.user-title {
+				white-space: nowrap;
+				overflow: hidden;
+			}
+			.user-list {
+				max-width: 30rem;
+				margin: 3rem auto 0;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="app" class="content">
+			<nav class="navbar is-black" role="navigation" aria-label="main navigation">
+				<div class="navbar-brand">
+					<span class="navbar-item">achievement-viewer</span>
+
+					<a
+						role="button"
+						class="navbar-burger burger"
+						aria-label="menu"
+						aria-expanded="false"
+						@click="isActive = !isActive"
+					>
+						<span aria-hidden="true"/>
+						<span aria-hidden="true"/>
+						<span aria-hidden="true"/>
+					</a>
+				</div>
+			</nav>
+			<div v-if="userId === null" class="container">
+				<div class="user-list">
+					<h1>ユーザー一覧</h1>
+					<ol>
+						<li v-for="user in users">
+							<a @click="navigateTo(user.id)">{{user.name}}</a>:
+							実績解除数 {{user.count}}
+						</li>
+					</ol>
+				</div>
+			</div>
+			<div v-else class="container">
+				<progress v-if="isLoading" class="progress is-small is-primary" max="100">15%</progress>
+				<div class="columns has-text-centered">
+					<div class="column">
+						<p class="title user-title">{{name}}の<wbr>解除した<wbr>実績一覧</p>
+						<div class="columns">
+							<div class="column achievements-progress">
+								<progress
+									class="progress is-success"
+									:value="achievementCount"
+									:max="183"
+								></progress>
+							</div>
+							<div class="column is-narrow">
+								<p class="subtitle is-6 achievements-count">
+									{{achievementCount}}/183達成済み
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="columns is-multiline">
+					<div v-for="{datum, name: id, date} in achievements" :key="id" class="column is-one-third">
+						<div class="card">
+							<div class="card-image">
+								<div class="image achievements-color" :style="{backgroundColor: getCategoryColor(datum.category)}"></div>
+							</div>
+							<div class="card-content">
+								<div class="content">
+									<p class="title">
+										{{datum.title}}
+										<span v-if="datum.difficulty === 'baby'" class="tag is-light">
+											Baby
+										</span>
+										<span v-if="datum.difficulty === 'easy'" class="tag is-success">
+											Easy
+										</span>
+										<span v-if="datum.difficulty === 'medium'" class="tag is-link">
+											Medium
+										</span>
+										<span v-if="datum.difficulty === 'hard'" class="tag is-warning">
+											Hard
+										</span>
+										<span v-if="datum.difficulty === 'professional'" class="tag is-danger">
+											Pro
+										</span>
+									</p>
+									<div v-if="datum.counter" class="columns">
+										<div class="column achievements-progress">
+											<progress
+												class="progress is-success"
+												:value="user[datum.counter] || 0"
+												:max="datum.value"
+											></progress>
+										</div>
+										<div class="column is-narrow">
+											<p class="subtitle is-6 achievements-count">
+												{{datum.value}}/{{datum.value}}
+											</p>
+										</div>
+									</div>
+									<p>{{datum.condition}}</p>
+									<p class="has-text-right is-size-7">
+										<time :datetime="getDateString(date)">{{getDateStringJa(date)}}</time>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
+		<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+		<script>
+			const categoryColors = new Map([
+				['basic', '#689F38'],
+				['reactions', '#FF8F00'],
+				['sushi-bot', '#D32F2F'],
+				['tashibot', '#9C27B0'],
+				['dajare', '#42A5F5'],
+				['tahoiya', '#558B2F'],
+				['mahjong', '#F57F17'],
+				['shogi', '#5D4037'],
+				['prime', '#1565C0'],
+				['achievements', '#558B2F'],
+				['manual', '#424242'],
+			]);
+
+			const getCategoryColor = (category) => {
+				if (categoryColors.has(category)) {
+					return categoryColors.get(category);
+				}
+
+				return '#777';
+			};
+
+			new Vue({
+				el: '#app',
+				data() {
+					return {
+						isLoading: true,
+						isActive: false,
+						user: {},
+						users: [],
+						userId: null,
+					};
+				},
+				computed: {
+					achievementCount() {
+						return Object.values(this.user.counts || {}).reduce((a, b) => a + b, 0);
+					},
+					name() {
+						return `@${this.user.name || location.hash.slice(1)}`;
+					},
+					achievements() {
+						return this.user.achievements;
+					},
+				},
+				async mounted() {
+					addEventListener('hashchange', this.onHashChange);
+
+					await this.onHashChange();
+					await this.fetchUsers();
+
+					this.isLoading = false;
+				},
+				methods: {
+					async switchUser(userId) {
+						this.user = await $.getJSON(`${userId}.json`)
+					},
+					async fetchUsers() {
+						this.users = await $.getJSON('users.json')
+					},
+					async onHashChange() {
+						const userId = location.hash.slice(1);
+						if (userId) {
+							this.userId = userId;
+							await this.switchUser(userId);
+						} else {
+							this.userId = null;
+							this.user = {};
+						}
+					},
+					async navigateTo(userId) {
+						this.userId = userId;
+						this.isLoading = true;
+
+						location.hash = `#${userId}`
+
+						await this.switchUser(userId);
+
+						this.isLoading = false;
+					},
+					getCategoryColor(category) {
+						return getCategoryColor(category);
+					},
+					getDifficultyRank(difficulty) {
+						return {baby: 1, easy: 2, medium: 3, hard: 4, professional: 5}[difficulty] || 0;
+					},
+					getDateString(date) {
+						const d = new Date(date.seconds * 1000);
+						return d.toISOString().split('T')[0];
+					},
+					getDateStringJa(date) {
+						const d = new Date(date.seconds * 1000);
+						return `${d.getFullYear()}年${d.getMonth() + 1}月${d.getDate()}日`;
+					},
+				},
+				head() {
+					return {
+						title: `${this.name}の解除した実績一覧 - achievement-viewer`,
+					};
+				},
+			});
+		</script>
+	</body>
+</html>

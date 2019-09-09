@@ -1,0 +1,1527 @@
+{
+  "chatDays": 79,
+  "chats": 13560,
+  "counts": {
+    "achievements": 5,
+    "ahokusa": 7,
+    "atcoder": 5,
+    "basic": 5,
+    "dajare": 3,
+    "mahjong": 4,
+    "manual": 8,
+    "pocky": 2,
+    "prime": 3,
+    "reactions": 18,
+    "ricochet-robots": 6,
+    "shogi": 3,
+    "sushi-bot": 6,
+    "tahoiya": 13,
+    "voiperrobot": 2
+  },
+  "name": "hakatashi",
+  "lastChatDay": "2019-09-10",
+  "tahoiyaDeceive": 15,
+  "tahoiyaParticipate": 24,
+  "tahoiyaWin": 7,
+  "tashibotDistance": 12464,
+  "achievements": [
+    {
+      "name": "reaction-pro-10",
+      "date": {
+        "seconds": 1566704506,
+        "nanoseconds": 348000000
+      },
+      "datum": {
+        "category": "reactions",
+        "condition": "1つのメッセージに対し10人以上から:pro:リアクションをもらう",
+        "count": 13,
+        "difficulty": "professional",
+        "first": "UL4CWFAAF",
+        "id": "reaction-pro-10",
+        "reaction": "pro",
+        "title": "仕事の流儀",
+        "value": 10
+      }
+    },
+    {
+      "name": "reaction-yosasou-5",
+      "date": {
+        "seconds": 1564544014,
+        "nanoseconds": 170000000
+      },
+      "datum": {
+        "category": "reactions",
+        "condition": "1つのメッセージに対し5人以上から:yosasou:リアクションをもらう",
+        "count": 20,
+        "difficulty": "hard",
+        "first": "U04FL2MGY",
+        "id": "reaction-yosasou-5",
+        "reaction": "yosasou",
+        "title": "LooksGoodToTSG",
+        "value": 5
+      }
+    },
+    {
+      "name": "mahjong-海底摸月",
+      "date": {
+        "seconds": 1562925951,
+        "nanoseconds": 701000000
+      },
+      "datum": {
+        "category": "mahjong",
+        "condition": "麻雀BOTの四麻モードで海底摸月を和了する",
+        "count": 5,
+        "difficulty": "hard",
+        "first": "U04G7TL4P",
+        "id": "mahjong-海底摸月",
+        "title": "片腹大激痛"
+      }
+    },
+    {
+      "name": "reaction-hideo54-5",
+      "date": {
+        "seconds": 1565595527,
+        "nanoseconds": 583000000
+      },
+      "datum": {
+        "category": "reactions",
+        "condition": "1つのメッセージに対し5人以上から:hideo54:リアクションをもらう",
+        "count": 3,
+        "difficulty": "hard",
+        "first": "U04G7TL4P",
+        "id": "reaction-hideo54-5",
+        "reaction": "hideo54",
+        "title": "ドジでよく泣くキツネの子",
+        "value": 5
+      }
+    },
+    {
+      "name": "achievements-70",
+      "date": {
+        "seconds": 1565697069,
+        "nanoseconds": 566000000
+      },
+      "datum": {
+        "category": "achievements",
+        "condition": "難易度easy以上の実績を70個解除する",
+        "count": 6,
+        "difficulty": "hard",
+        "first": "UA3H39U3T",
+        "id": "achievements-70",
+        "title": "実績七十古来稀なり"
+      }
+    },
+    {
+      "name": "reaction-ha-5",
+      "date": {
+        "seconds": 1563287495,
+        "nanoseconds": 847000000
+      },
+      "datum": {
+        "category": "reactions",
+        "condition": "1つのメッセージに5人以上から:ha:リアクションをもらう",
+        "count": 5,
+        "difficulty": "hard",
+        "first": "UA3H39U3T",
+        "id": "reaction-ha-5",
+        "reaction": "ha",
+        "title": "支離滅裂",
+        "value": 5
+      }
+    },
+    {
+      "name": "atcoder-rating-minus-50",
+      "date": {
+        "seconds": 1566054698,
+        "nanoseconds": 649000000
+      },
+      "datum": {
+        "category": "atcoder",
+        "condition": "AtCoderでレーティングを一度に50以上下げる",
+        "count": 3,
+        "difficulty": "hard",
+        "first": "U04G7TL4P",
+        "id": "atcoder-rating-minus-50",
+        "title": "実質趣味"
+      }
+    },
+    {
+      "name": "chat-1000times",
+      "date": {
+        "seconds": 1554908400,
+        "nanoseconds": 0
+      },
+      "datum": {
+        "category": "basic",
+        "condition": "パブリックなチャンネルで1000回以上発言する",
+        "count": 23,
+        "counter": "chats",
+        "difficulty": "hard",
+        "first": "UA5SFQFN3",
+        "id": "chat-1000times",
+        "title": "話の種",
+        "value": 1000
+      }
+    },
+    {
+      "name": "reaction-genius-5",
+      "date": {
+        "seconds": 1563166261,
+        "nanoseconds": 932000000
+      },
+      "datum": {
+        "category": "reactions",
+        "condition": "1つのメッセージに対し5人以上から:genius:リアクションをもらう",
+        "count": 21,
+        "difficulty": "hard",
+        "first": "U04G7TL4P",
+        "id": "reaction-genius-5",
+        "reaction": "genius",
+        "title": "巨人の肩の上で",
+        "value": 5
+      }
+    },
+    {
+      "name": "reaction-shoki-ka-5",
+      "date": {
+        "seconds": 1565969067,
+        "nanoseconds": 108000000
+      },
+      "datum": {
+        "category": "reactions",
+        "condition": "1つのメッセージに対し5人以上から:shoki-ka:リアクションをもらう",
+        "count": 2,
+        "difficulty": "hard",
+        "first": "UA3H39U3T",
+        "id": "reaction-shoki-ka-5",
+        "reaction": "shoki-ka",
+        "title": "狂気の沙汰ほど面白い...！",
+        "value": 5
+      }
+    },
+    {
+      "name": "shogi-打ち歩詰め",
+      "date": {
+        "seconds": 1563434205,
+        "nanoseconds": 69000000
+      },
+      "datum": {
+        "category": "shogi",
+        "condition": "将棋BOTで打ち歩詰めで敗北する",
+        "count": 2,
+        "difficulty": "hard",
+        "first": "U04G7TL4P",
+        "id": "shogi-打ち歩詰め",
+        "title": "打ち歩詰めに詰みの余地あり"
+      }
+    },
+    {
+      "name": "reaction-yakuza-5",
+      "date": {
+        "seconds": 1562082090,
+        "nanoseconds": 552000000
+      },
+      "datum": {
+        "category": "reactions",
+        "condition": "1つのメッセージに対し5人以上から:yakuza:リアクションをもらう",
+        "count": 6,
+        "difficulty": "hard",
+        "first": "U04FL2MGY",
+        "id": "reaction-yakuza-5",
+        "reaction": "yakuza",
+        "title": "今日からやの付く自由業",
+        "value": 5
+      }
+    },
+    {
+      "name": "tahoiya-positive-coins-without-win",
+      "date": {
+        "seconds": 1564061780,
+        "nanoseconds": 759000000
+      },
+      "datum": {
+        "category": "tahoiya",
+        "condition": "たほいやで誤った選択肢にBETした上で正の得点を獲得する",
+        "count": 7,
+        "difficulty": "hard",
+        "first": "UGF75L5U5",
+        "id": "tahoiya-positive-coins-without-win",
+        "title": "負けるが勝ち"
+      }
+    },
+    {
+      "name": "reaction-pro-5",
+      "date": {
+        "seconds": 1562510803,
+        "nanoseconds": 960000000
+      },
+      "datum": {
+        "category": "reactions",
+        "condition": "1つのメッセージに対し5人以上から:pro:リアクションをもらう",
+        "count": 28,
+        "difficulty": "hard",
+        "first": "U10FJ8H2S",
+        "id": "reaction-pro-5",
+        "reaction": "pro",
+        "title": "みんな違ってみんなプロ",
+        "value": 5
+      }
+    },
+    {
+      "name": "tahoiya-firstplace",
+      "date": {
+        "seconds": 1565186426,
+        "nanoseconds": 849000000
+      },
+      "datum": {
+        "category": "tahoiya",
+        "condition": "たほいやのランキングで1位になる",
+        "count": 3,
+        "difficulty": "hard",
+        "first": "UA3H39U3T",
+        "id": "tahoiya-firstplace",
+        "title": "歩く百科事典"
+      }
+    },
+    {
+      "name": "achievements-master",
+      "date": {
+        "seconds": 1555081200,
+        "nanoseconds": 0
+      },
+      "datum": {
+        "category": "achievements",
+        "condition": "難易度medium以上の実績を10個解除する",
+        "count": 25,
+        "difficulty": "hard",
+        "first": "UGF75L5U5",
+        "id": "achievements-master",
+        "title": "実績マスター"
+      }
+    },
+    {
+      "name": "reaction-kowa-5",
+      "date": {
+        "seconds": 1566570811,
+        "nanoseconds": 17000000
+      },
+      "datum": {
+        "category": "reactions",
+        "condition": "1つのメッセージに対し5人以上から:kowa:リアクションをもらう",
+        "count": 7,
+        "difficulty": "hard",
+        "first": "UGVE06DHU",
+        "id": "reaction-kowa-5",
+        "reaction": "kowa",
+        "title": "た͜͜͏̘̣͔͙͎͎̘̜̫̗͍͚͓͜͜͏̘̣͔͙͎͎す͜͜͏̘̣͔͙͎͎ơ̟̤̖̗͖͇̍͋̀͆̓́͞͡け̜ͪ̅̍̅͂͊て",
+        "value": 5
+      }
+    },
+    {
+      "name": "reaction-hototogisu-5",
+      "date": {
+        "seconds": 1565186048,
+        "nanoseconds": 127000000
+      },
+      "datum": {
+        "category": "reactions",
+        "condition": "1つのメッセージに対し5人以上から:hototogisu:リアクションをもらう",
+        "count": 2,
+        "difficulty": "hard",
+        "first": "U04FL2MGY",
+        "id": "reaction-hototogisu-5",
+        "reaction": "hototogisu",
+        "title": "鳥さんが鳴いとるやんけ",
+        "value": 5
+      }
+    },
+    {
+      "name": "heiankyo-alien",
+      "date": {
+        "seconds": 1566723331,
+        "nanoseconds": 293000000
+      },
+      "datum": {
+        "category": "manual",
+        "condition": "TSGの部室で平安京エイリアンをプレイする",
+        "count": 9,
+        "difficulty": "hard",
+        "first": "U04FL2MGY",
+        "id": "heiankyo-alien",
+        "manual": true,
+        "title": "歴史との邂逅"
+      }
+    },
+    {
+      "name": "reaction-tada-5",
+      "date": {
+        "seconds": 1566522953,
+        "nanoseconds": 630000000
+      },
+      "datum": {
+        "category": "reactions",
+        "condition": "1つのメッセージに対し5人以上から:tada:リアクションをもらう",
+        "count": 18,
+        "difficulty": "hard",
+        "first": "UL4CWFAAF",
+        "id": "reaction-tada-5",
+        "reaction": "tada",
+        "title": "tadaより嬉しいものはない",
+        "value": 5
+      }
+    },
+    {
+      "name": "reaction-riaru-5",
+      "date": {
+        "seconds": 1564561385,
+        "nanoseconds": 540000000
+      },
+      "datum": {
+        "category": "reactions",
+        "condition": "1つのメッセージに対し5人以上から:riaru:リアクションをもらう",
+        "count": 6,
+        "difficulty": "hard",
+        "first": "UGVE06DHU",
+        "id": "reaction-riaru-5",
+        "reaction": "riaru",
+        "title": "理性ある生き物",
+        "value": 5
+      }
+    },
+    {
+      "name": "reaction-wakari-5",
+      "date": {
+        "seconds": 1558191600,
+        "nanoseconds": 0
+      },
+      "datum": {
+        "category": "reactions",
+        "condition": "1つのメッセージに5人以上から:wakari:リアクションをもらう",
+        "count": 19,
+        "difficulty": "hard",
+        "first": "UA3H39U3T",
+        "id": "reaction-wakari-5",
+        "reaction": "wakari",
+        "title": "デビルマン",
+        "value": 5
+      }
+    },
+    {
+      "name": "reaction-chian-ga-nai-5",
+      "date": {
+        "seconds": 1563288034,
+        "nanoseconds": 432000000
+      },
+      "datum": {
+        "category": "reactions",
+        "condition": "1つのメッセージに対し5人以上から:chian-ga-nai:リアクションをもらう",
+        "count": 5,
+        "difficulty": "hard",
+        "first": "UA4ANP0L9",
+        "id": "reaction-chian-ga-nai-5",
+        "reaction": "chian-ga-nai",
+        "title": "TSGMELTDOWN",
+        "value": 5
+      }
+    },
+    {
+      "name": "reaction-koresuki-5",
+      "date": {
+        "seconds": 1555081200,
+        "nanoseconds": 0
+      },
+      "datum": {
+        "category": "reactions",
+        "condition": "1つのメッセージに対し5人以上から:koresuki:リアクションをもらう",
+        "count": 26,
+        "difficulty": "hard",
+        "first": "UA4ANP0L9",
+        "id": "reaction-koresuki-5",
+        "reaction": "koresuki",
+        "title": "ジャガーマン",
+        "value": 5
+      }
+    },
+    {
+      "name": "tahoiya-over10",
+      "date": {
+        "seconds": 1555081200,
+        "nanoseconds": 0
+      },
+      "datum": {
+        "category": "tahoiya",
+        "condition": "たほいやで一度にプラス10点以上獲得する",
+        "count": 5,
+        "difficulty": "hard",
+        "first": "U04G7TL4P",
+        "id": "tahoiya-over10",
+        "title": "一攫千金"
+      }
+    },
+    {
+      "name": "reaction-ikku-5",
+      "date": {
+        "seconds": 1566480659,
+        "nanoseconds": 201000000
+      },
+      "datum": {
+        "category": "reactions",
+        "condition": "1つのメッセージに対し5人以上から:ikku:リアクションをもらう",
+        "count": 5,
+        "difficulty": "hard",
+        "first": "UGVE06DHU",
+        "id": "reaction-ikku-5",
+        "reaction": "ikku",
+        "title": "TSGの松尾芭蕉",
+        "value": 5
+      }
+    },
+    {
+      "name": "reaction-shirimetsuretsu-5",
+      "date": {
+        "seconds": 1563368078,
+        "nanoseconds": 194000000
+      },
+      "datum": {
+        "category": "reactions",
+        "condition": "1つのメッセージに対し5人以上から:shirimetsuretsu:リアクションをもらう",
+        "count": 12,
+        "difficulty": "hard",
+        "first": "UA40NHUGK",
+        "id": "reaction-shirimetsuretsu-5",
+        "reaction": "shirimetsuretsu",
+        "title": "君はお肉が好き？",
+        "value": 5
+      }
+    },
+    {
+      "name": "github",
+      "date": {
+        "seconds": 1555081200,
+        "nanoseconds": 0
+      },
+      "datum": {
+        "category": "manual",
+        "condition": "GitHubのtsg-ut下のリポジトリにコミットする",
+        "count": 14,
+        "difficulty": "hard",
+        "first": "U04G7TL4P",
+        "id": "github",
+        "manual": true,
+        "title": "コントリビューター"
+      }
+    },
+    {
+      "name": "atcoder-rating-plus-50",
+      "date": {
+        "seconds": 1566655192,
+        "nanoseconds": 346000000
+      },
+      "datum": {
+        "category": "atcoder",
+        "condition": "AtCoderでレーティングを一度に50以上上げる",
+        "count": 5,
+        "difficulty": "hard",
+        "first": "UGVE06DHU",
+        "id": "atcoder-rating-plus-50",
+        "title": "競プロ界のtourist"
+      }
+    },
+    {
+      "name": "tahoiya-deceive-each-other",
+      "date": {
+        "seconds": 1564061780,
+        "nanoseconds": 376000000
+      },
+      "datum": {
+        "category": "tahoiya",
+        "condition": "たほいやでお互いの登録した意味に振り込み合う (BOTを除く)",
+        "count": 7,
+        "difficulty": "hard",
+        "first": "UHFLP4MD0",
+        "id": "tahoiya-deceive-each-other",
+        "title": "鷸蚌の争い"
+      }
+    },
+    {
+      "name": "reaction-0ten-5",
+      "date": {
+        "seconds": 1565532155,
+        "nanoseconds": 74000000
+      },
+      "datum": {
+        "category": "reactions",
+        "condition": "1つのメッセージに対し5人以上から:0ten:リアクションをもらう",
+        "count": 6,
+        "difficulty": "hard",
+        "first": "U108E9FA7",
+        "id": "reaction-0ten-5",
+        "reaction": "0ten",
+        "title": "す単落々堂我",
+        "value": 5
+      }
+    },
+    {
+      "name": "chat-10000times",
+      "date": {
+        "seconds": 1566222357,
+        "nanoseconds": 107000000
+      },
+      "datum": {
+        "category": "basic",
+        "condition": "パブリックなチャンネルで10000回以上発言する",
+        "count": 4,
+        "counter": "chats",
+        "difficulty": "hard",
+        "first": "UA3H39U3T",
+        "id": "chat-10000times",
+        "title": "竿の先",
+        "value": 10000
+      }
+    },
+    {
+      "name": "freezing-master",
+      "date": {
+        "seconds": 1555772400,
+        "nanoseconds": 0
+      },
+      "datum": {
+        "category": "sushi-bot",
+        "condition": "週間凍結ランキングで1位を獲得する",
+        "count": 7,
+        "difficulty": "hard",
+        "first": "UA4ANP0L9",
+        "id": "freezing-master",
+        "title": "氷属性"
+      }
+    },
+    {
+      "name": "github-slackbot",
+      "date": {
+        "seconds": 1555081200,
+        "nanoseconds": 0
+      },
+      "datum": {
+        "category": "manual",
+        "condition": "GitHubのtsg-ut/slackbotにコミットする",
+        "count": 14,
+        "difficulty": "hard",
+        "first": "U04G7TL4P",
+        "id": "github-slackbot",
+        "manual": true,
+        "title": "BOT駆動開発"
+      }
+    },
+    {
+      "name": "sig-3times",
+      "date": {
+        "seconds": 1561387175,
+        "nanoseconds": 588000000
+      },
+      "datum": {
+        "category": "manual",
+        "condition": "分科会に3回以上参加する",
+        "count": 12,
+        "difficulty": "medium",
+        "first": "UA5SFQFN3",
+        "id": "sig-3times",
+        "manual": true,
+        "title": "TSG中級者"
+      }
+    },
+    {
+      "name": "create-sig",
+      "date": {
+        "seconds": 1566722668,
+        "nanoseconds": 709000000
+      },
+      "datum": {
+        "category": "manual",
+        "condition": "分科会を開催・運営する",
+        "count": 4,
+        "difficulty": "medium",
+        "first": "UA5SFQFN3",
+        "id": "create-sig",
+        "manual": true,
+        "title": "はじめてのオフ会主催"
+      }
+    },
+    {
+      "name": "daily-tahoiya-theme",
+      "date": {
+        "seconds": 1565790230,
+        "nanoseconds": 271000000
+      },
+      "datum": {
+        "category": "tahoiya",
+        "condition": "デイリーたほいやにお題を登録する",
+        "count": 10,
+        "difficulty": "medium",
+        "first": "UHHFS9YS1",
+        "id": "daily-tahoiya-theme",
+        "title": "大智は愚の如し"
+      }
+    },
+    {
+      "name": "tahoiya-deceive",
+      "date": {
+        "seconds": 1554562800,
+        "nanoseconds": 0
+      },
+      "datum": {
+        "category": "tahoiya",
+        "condition": "たほいやで他の人をひっかける",
+        "count": 22,
+        "difficulty": "medium",
+        "first": "U04FL2N9C",
+        "id": "tahoiya-deceive",
+        "title": "笑中に刀あり"
+      }
+    },
+    {
+      "name": "wednesday-sushi",
+      "date": {
+        "seconds": 1556809200,
+        "nanoseconds": 0
+      },
+      "datum": {
+        "category": "sushi-bot",
+        "condition": "水曜日にsushi-botから寿司をもらう",
+        "count": 24,
+        "difficulty": "medium",
+        "first": "U04G7TL4P",
+        "id": "wednesday-sushi",
+        "title": "すしすしすいようび"
+      }
+    },
+    {
+      "name": "atcoder-rating-plus",
+      "date": {
+        "seconds": 1566136931,
+        "nanoseconds": 610000000
+      },
+      "datum": {
+        "category": "atcoder",
+        "condition": "AtCoderでレーティングを上げる",
+        "count": 14,
+        "difficulty": "medium",
+        "first": "UA3H39U3T",
+        "id": "atcoder-rating-plus",
+        "title": "競プロの天才"
+      }
+    },
+    {
+      "name": "ahokusa-clear-shortest-once",
+      "date": {
+        "seconds": 1563788783,
+        "nanoseconds": 211000000
+      },
+      "datum": {
+        "category": "ahokusa",
+        "condition": "あほくさスライドパズルを一発かつ最短でクリアする",
+        "count": 7,
+        "difficulty": "medium",
+        "first": "UA3H39U3T",
+        "id": "ahokusa-clear-shortest-once",
+        "title": "ええんちゃう？"
+      }
+    },
+    {
+      "name": "achievements-10",
+      "date": {
+        "seconds": 1554562800,
+        "nanoseconds": 0
+      },
+      "datum": {
+        "category": "achievements",
+        "condition": "難易度easy以上の実績を10個解除する",
+        "count": 31,
+        "difficulty": "medium",
+        "first": "UGF75L5U5",
+        "id": "achievements-10",
+        "title": "解解解解解解解解解解除"
+      }
+    },
+    {
+      "name": "long-pocky",
+      "date": {
+        "seconds": 1558537200,
+        "nanoseconds": 0
+      },
+      "datum": {
+        "category": "pocky",
+        "condition": "pockyから20文字以上の返答を得る",
+        "count": 19,
+        "difficulty": "medium",
+        "first": "U7DU3DBB7",
+        "id": "long-pocky",
+        "title": "スーモ"
+      }
+    },
+    {
+      "name": "ahokusa-impossible-once",
+      "date": {
+        "seconds": 1563788962,
+        "nanoseconds": 160000000
+      },
+      "datum": {
+        "category": "ahokusa",
+        "condition": "あほくさスライドパズルの不成立を一発で指摘する",
+        "count": 12,
+        "difficulty": "medium",
+        "first": "UA3H39U3T",
+        "id": "ahokusa-impossible-once",
+        "title": "あ　ほ　く　さ"
+      }
+    },
+    {
+      "name": "shogi-shortest",
+      "date": {
+        "seconds": 1563044209,
+        "nanoseconds": 999000000
+      },
+      "datum": {
+        "category": "shogi",
+        "condition": "将棋BOTで最短勝利する",
+        "count": 13,
+        "difficulty": "medium",
+        "first": "U04G7TL4P",
+        "id": "shogi-shortest",
+        "title": "長い詰みより短い必至"
+      }
+    },
+    {
+      "name": "prime-clear",
+      "date": {
+        "seconds": 1563513936,
+        "nanoseconds": 413000000
+      },
+      "datum": {
+        "category": "prime",
+        "condition": "素数大富豪をクリアする",
+        "count": 12,
+        "difficulty": "medium",
+        "first": "UA3H39U3T",
+        "id": "prime-clear",
+        "title": "ディオファントス"
+      }
+    },
+    {
+      "name": "ricochet-robots-clear-shortest-over10",
+      "date": {
+        "seconds": 1566393608,
+        "nanoseconds": 854000000
+      },
+      "datum": {
+        "category": "ricochet-robots",
+        "condition": "ハイパーロボットで10手詰め以上の問題で最短勝利する",
+        "count": 14,
+        "difficulty": "medium",
+        "first": "U04FL2N9C",
+        "id": "ricochet-robots-clear-shortest-over10",
+        "title": "アンドロイド"
+      }
+    },
+    {
+      "name": "tahoiya-5bet",
+      "date": {
+        "seconds": 1554562800,
+        "nanoseconds": 0
+      },
+      "datum": {
+        "category": "tahoiya",
+        "condition": "たほいやで5枚BETする",
+        "count": 15,
+        "difficulty": "medium",
+        "first": "UH8EERTNV",
+        "id": "tahoiya-5bet",
+        "title": "乾坤一擲"
+      }
+    },
+    {
+      "name": "atcoder-participate",
+      "date": {
+        "seconds": 1566052205,
+        "nanoseconds": 70000000
+      },
+      "datum": {
+        "category": "atcoder",
+        "condition": "AtCoderに参加する",
+        "count": 16,
+        "difficulty": "medium",
+        "first": "UA3H39U3T",
+        "id": "atcoder-participate",
+        "title": "はいプロ"
+      }
+    },
+    {
+      "name": "prime-fermat",
+      "date": {
+        "seconds": 1563513766,
+        "nanoseconds": 833000000
+      },
+      "datum": {
+        "category": "prime",
+        "condition": "素数大富豪で3桁以上のフェルマー素数を捨てる",
+        "count": 8,
+        "difficulty": "medium",
+        "first": "UA3H39U3T",
+        "id": "prime-fermat",
+        "title": "ピエール・ド・フェルマー"
+      }
+    },
+    {
+      "name": "tahoiya-over6",
+      "date": {
+        "seconds": 1554562800,
+        "nanoseconds": 0
+      },
+      "datum": {
+        "category": "tahoiya",
+        "condition": "たほいやで一度にプラス6点以上獲得する",
+        "count": 13,
+        "difficulty": "medium",
+        "first": "U04G7TL4P",
+        "id": "tahoiya-over6",
+        "title": "坊主丸儲け"
+      }
+    },
+    {
+      "name": "scrapbox",
+      "date": {
+        "seconds": 1554822000,
+        "nanoseconds": 0
+      },
+      "datum": {
+        "category": "manual",
+        "condition": "scrapboxに自分の名前の記事を作成する",
+        "count": 17,
+        "difficulty": "medium",
+        "first": "U04G7TL4P",
+        "id": "scrapbox",
+        "manual": true,
+        "title": "切り抜き箱"
+      }
+    },
+    {
+      "name": "tahoiya-deceive-total7",
+      "date": {
+        "seconds": 1564581608,
+        "nanoseconds": 289000000
+      },
+      "datum": {
+        "category": "tahoiya",
+        "condition": "たほいやで延べ8人をひっかける",
+        "count": 5,
+        "counter": "tahoiyaDeceive",
+        "difficulty": "medium",
+        "first": "U04G7TL4P",
+        "id": "tahoiya-deceive-total7",
+        "title": "狐七化け、狸は八化け",
+        "value": 8
+      }
+    },
+    {
+      "name": "tahoiya-participate-10",
+      "date": {
+        "seconds": 1564407003,
+        "nanoseconds": 444000000
+      },
+      "datum": {
+        "category": "tahoiya",
+        "condition": "たほいやに10回参加する (BOT以外の参加者が3人以上の場合に限る)",
+        "count": 7,
+        "counter": "tahoiyaParticipate",
+        "difficulty": "medium",
+        "first": "UJVA98XDM",
+        "id": "tahoiya-participate-10",
+        "title": "芸は道によって賢し",
+        "value": 10
+      }
+    },
+    {
+      "name": "clubroom",
+      "date": {
+        "seconds": 1561387206,
+        "nanoseconds": 332000000
+      },
+      "datum": {
+        "category": "manual",
+        "condition": "TSGの部室を訪問する",
+        "count": 10,
+        "difficulty": "medium",
+        "first": "UA40QKP51",
+        "id": "clubroom",
+        "manual": true,
+        "title": "足跡"
+      }
+    },
+    {
+      "name": "tahoiya-down10",
+      "date": {
+        "seconds": 1555167600,
+        "nanoseconds": 0
+      },
+      "datum": {
+        "category": "tahoiya",
+        "condition": "たほいやで前回より10点以上低い点数を獲得する",
+        "count": 11,
+        "difficulty": "medium",
+        "first": "U04G7TL4P",
+        "id": "tahoiya-down10",
+        "title": "悪銭身につかず"
+      }
+    },
+    {
+      "name": "atcoder-rating-minus",
+      "date": {
+        "seconds": 1566054698,
+        "nanoseconds": 296000000
+      },
+      "datum": {
+        "category": "atcoder",
+        "condition": "AtCoderでレーティングを下げる",
+        "count": 6,
+        "difficulty": "medium",
+        "first": "U04G7TL4P",
+        "id": "atcoder-rating-minus",
+        "title": "競プロの終焉を告げる者"
+      }
+    },
+    {
+      "name": "tahoiya-singularity",
+      "date": {
+        "seconds": 1564375228,
+        "nanoseconds": 605000000
+      },
+      "datum": {
+        "category": "tahoiya",
+        "condition": "たほいやでAIに振り込んでしまう",
+        "count": 16,
+        "difficulty": "medium",
+        "first": "U10A3FYH3",
+        "id": "tahoiya-singularity",
+        "title": "シンギュラリティ"
+      }
+    },
+    {
+      "name": "chat-10days",
+      "date": {
+        "seconds": 1555167600,
+        "nanoseconds": 0
+      },
+      "datum": {
+        "category": "basic",
+        "condition": "パブリックなチャンネルでのべ10日間発言する",
+        "count": 39,
+        "counter": "chatDays",
+        "difficulty": "medium",
+        "first": "U108E9FA7",
+        "id": "chat-10days",
+        "title": "常連",
+        "value": 10
+      }
+    },
+    {
+      "name": "get-infinite-sushi",
+      "date": {
+        "seconds": 1554390000,
+        "nanoseconds": 0
+      },
+      "datum": {
+        "category": "sushi-bot",
+        "condition": "sushi-botから一度に無限個の寿司をもらう",
+        "count": 19,
+        "difficulty": "easy",
+        "first": "U04G7TL4P",
+        "id": "get-infinite-sushi",
+        "title": "ハマチ"
+      }
+    },
+    {
+      "name": "mahjong",
+      "date": {
+        "seconds": 1562925781,
+        "nanoseconds": 879000000
+      },
+      "datum": {
+        "category": "mahjong",
+        "condition": "麻雀BOTの四麻モードで和了する",
+        "count": 12,
+        "difficulty": "easy",
+        "first": "UGF75L5U5",
+        "id": "mahjong",
+        "title": "みっつずつ、みっつずつ⋯⋯"
+      }
+    },
+    {
+      "name": "zabuton",
+      "date": {
+        "seconds": 1554562800,
+        "nanoseconds": 0
+      },
+      "datum": {
+        "category": "dajare",
+        "condition": "dajareボットから:zabuton:をもらう",
+        "count": 30,
+        "difficulty": "easy",
+        "first": "UGF75L5U5",
+        "id": "zabuton",
+        "title": "だじゃれを言うのは誰じゃ"
+      }
+    },
+    {
+      "name": "achievements",
+      "date": {
+        "seconds": 1554390000,
+        "nanoseconds": 0
+      },
+      "datum": {
+        "category": "achievements",
+        "condition": "初めて実績解除する",
+        "count": 93,
+        "difficulty": "easy",
+        "first": "U06MPLTFV",
+        "id": "achievements",
+        "title": "実績解除"
+      }
+    },
+    {
+      "name": "get-multiple-sushi",
+      "date": {
+        "seconds": 1554390000,
+        "nanoseconds": 0
+      },
+      "datum": {
+        "category": "sushi-bot",
+        "condition": "sushi-botから一度に2個以上の寿司をもらう",
+        "count": 26,
+        "difficulty": "easy",
+        "first": "U04G7TL4P",
+        "id": "get-multiple-sushi",
+        "title": "マグロ"
+      }
+    },
+    {
+      "name": "ahokusa-clear-once",
+      "date": {
+        "seconds": 1563788782,
+        "nanoseconds": 742000000
+      },
+      "datum": {
+        "category": "ahokusa",
+        "condition": "あほくさスライドパズルを一発でクリアする",
+        "count": 7,
+        "difficulty": "easy",
+        "first": "UA3H39U3T",
+        "id": "ahokusa-clear-once",
+        "title": "その結果ランキングに載るわけです！"
+      }
+    },
+    {
+      "name": "ahokusa-clear",
+      "date": {
+        "seconds": 1563788781,
+        "nanoseconds": 214000000
+      },
+      "datum": {
+        "category": "ahokusa",
+        "condition": "あほくさスライドパズルをクリアする",
+        "count": 11,
+        "difficulty": "easy",
+        "first": "UA3H39U3T",
+        "id": "ahokusa-clear",
+        "title": "まあゆかりさんは天才ですから？"
+      }
+    },
+    {
+      "name": "zabutons",
+      "date": {
+        "seconds": 1554908400,
+        "nanoseconds": 0
+      },
+      "datum": {
+        "category": "dajare",
+        "condition": "dajareボットから:zabutons:をもらう",
+        "count": 24,
+        "difficulty": "easy",
+        "first": "UGF75L5U5",
+        "id": "zabutons",
+        "title": "タワーの上に登ったわー"
+      }
+    },
+    {
+      "name": "sig",
+      "date": {
+        "seconds": 1554822000,
+        "nanoseconds": 0
+      },
+      "datum": {
+        "category": "manual",
+        "condition": "分科会に参加する",
+        "count": 18,
+        "difficulty": "easy",
+        "first": "UA4ANP0L9",
+        "id": "sig",
+        "manual": true,
+        "title": "TSG初心者"
+      }
+    },
+    {
+      "name": "ricochet-robots-play",
+      "date": {
+        "seconds": 1565697069,
+        "nanoseconds": 86000000
+      },
+      "datum": {
+        "category": "ricochet-robots",
+        "condition": "ハイパーロボットで遊ぶ",
+        "count": 19,
+        "difficulty": "easy",
+        "first": "U04FL2N9C",
+        "id": "ricochet-robots-play",
+        "title": "Hey ハイパーロボット"
+      }
+    },
+    {
+      "name": "mahjong-12000",
+      "date": {
+        "seconds": 1562925782,
+        "nanoseconds": 264000000
+      },
+      "datum": {
+        "category": "mahjong",
+        "condition": "麻雀BOTの四麻モードで満貫以上を和了する",
+        "count": 11,
+        "difficulty": "easy",
+        "first": "UGF75L5U5",
+        "id": "mahjong-12000",
+        "title": "ザンクを三回刻むより"
+      }
+    },
+    {
+      "name": "ricochet-robots-clear",
+      "date": {
+        "seconds": 1563595060,
+        "nanoseconds": 88000000
+      },
+      "datum": {
+        "category": "ricochet-robots",
+        "condition": "ハイパーロボットを正解する",
+        "count": 18,
+        "difficulty": "easy",
+        "first": "U10FJ8H2S",
+        "id": "ricochet-robots-clear",
+        "title": "われはロボット"
+      }
+    },
+    {
+      "name": "flying-zabuton",
+      "date": {
+        "seconds": 1554994800,
+        "nanoseconds": 0
+      },
+      "datum": {
+        "category": "dajare",
+        "condition": "dajareボットから:flying-zabuton:をもらう",
+        "count": 15,
+        "difficulty": "easy",
+        "first": "UA3H39U3T",
+        "id": "flying-zabuton",
+        "title": "座布団がぶっ飛んだ"
+      }
+    },
+    {
+      "name": "ricochet-robots-clear-shortest",
+      "date": {
+        "seconds": 1563549879,
+        "nanoseconds": 799000000
+      },
+      "datum": {
+        "category": "ricochet-robots",
+        "condition": "ハイパーロボットで最短勝利する",
+        "count": 18,
+        "difficulty": "easy",
+        "first": "U10FJ8H2S",
+        "id": "ricochet-robots-clear-shortest",
+        "title": "オートマタ"
+      }
+    },
+    {
+      "name": "freezing",
+      "date": {
+        "seconds": 1554390000,
+        "nanoseconds": 0
+      },
+      "datum": {
+        "category": "sushi-bot",
+        "condition": "sushi-botに凍結される",
+        "count": 32,
+        "difficulty": "easy",
+        "first": "U7DU3DBB7",
+        "id": "freezing",
+        "title": "フリージング"
+      }
+    },
+    {
+      "name": "ricochet-robots-buttle-play",
+      "date": {
+        "seconds": 1563035973,
+        "nanoseconds": 667000000
+      },
+      "datum": {
+        "category": "ricochet-robots",
+        "condition": "ハイパーロボットバトルで遊ぶ",
+        "count": 9,
+        "difficulty": "easy",
+        "first": "UGF75L5U5",
+        "id": "ricochet-robots-buttle-play",
+        "title": "ハイパーロボット対戦"
+      }
+    },
+    {
+      "name": "tahoiya",
+      "date": {
+        "seconds": 1554476400,
+        "nanoseconds": 0
+      },
+      "datum": {
+        "category": "tahoiya",
+        "condition": "たほいやに参加する",
+        "count": 26,
+        "difficulty": "easy",
+        "first": "UGF75L5U5",
+        "id": "tahoiya",
+        "title": "千里の道も一歩から"
+      }
+    },
+    {
+      "name": "ahokusa-play",
+      "date": {
+        "seconds": 1563788767,
+        "nanoseconds": 931000000
+      },
+      "datum": {
+        "category": "ahokusa",
+        "condition": "あほくさスライドパズルで遊ぶ",
+        "count": 12,
+        "difficulty": "easy",
+        "first": "UA3H39U3T",
+        "id": "ahokusa-play",
+        "title": "今話題のゲームがあるんですよ"
+      }
+    },
+    {
+      "name": "chat-10times",
+      "date": {
+        "seconds": 1554390000,
+        "nanoseconds": 0
+      },
+      "datum": {
+        "category": "basic",
+        "condition": "パブリックなチャンネルで10回以上発言する",
+        "count": 58,
+        "counter": "chats",
+        "difficulty": "easy",
+        "first": "UA4ANP0L9",
+        "id": "chat-10times",
+        "title": "ｽｯｺｺｺ",
+        "value": 10
+      }
+    },
+    {
+      "name": "shogi",
+      "date": {
+        "seconds": 1563044035,
+        "nanoseconds": 888000000
+      },
+      "datum": {
+        "category": "shogi",
+        "condition": "将棋BOTで勝利する",
+        "count": 13,
+        "difficulty": "easy",
+        "first": "U04G7TL4P",
+        "id": "shogi",
+        "title": "勝ち将棋鬼の如し"
+      }
+    },
+    {
+      "name": "ricochet-robots-buttle-win",
+      "date": {
+        "seconds": 1563549880,
+        "nanoseconds": 183000000
+      },
+      "datum": {
+        "category": "ricochet-robots",
+        "condition": "ハイパーロボットバトルで勝利する",
+        "count": 10,
+        "difficulty": "easy",
+        "first": "U04FL2N9C",
+        "id": "ricochet-robots-buttle-win",
+        "title": "早見え"
+      }
+    },
+    {
+      "name": "voiperrobot-battle",
+      "date": {
+        "seconds": 1562848888,
+        "nanoseconds": 751000000
+      },
+      "datum": {
+        "category": "voiperrobot",
+        "condition": "ボイパーロボットバトルで遊ぶ",
+        "count": 10,
+        "difficulty": "easy",
+        "first": "U04G7TL4P",
+        "id": "voiperrobot-battle",
+        "title": "ひっつくパンツ"
+      }
+    },
+    {
+      "name": "achievements-3",
+      "date": {
+        "seconds": 1554390000,
+        "nanoseconds": 0
+      },
+      "datum": {
+        "category": "achievements",
+        "condition": "難易度easy以上の実績を3つ解除する",
+        "count": 54,
+        "difficulty": "easy",
+        "first": "UA40NHUGK",
+        "id": "achievements-3",
+        "title": "解解解除"
+      }
+    },
+    {
+      "name": "mahjong-ikeda",
+      "date": {
+        "seconds": 1562925913,
+        "nanoseconds": 610000000
+      },
+      "datum": {
+        "category": "mahjong",
+        "condition": "麻雀BOTの四麻モードで七筒を切る",
+        "count": 12,
+        "difficulty": "easy",
+        "first": "UGF75L5U5",
+        "id": "mahjong-ikeda",
+        "title": "池田ァ！"
+      }
+    },
+    {
+      "name": "ahokusa-impossible",
+      "date": {
+        "seconds": 1563788961,
+        "nanoseconds": 772000000
+      },
+      "datum": {
+        "category": "ahokusa",
+        "condition": "あほくさスライドパズルの不成立を指摘する",
+        "count": 12,
+        "difficulty": "easy",
+        "first": "UA3H39U3T",
+        "id": "ahokusa-impossible",
+        "title": "わかる（明察）"
+      }
+    },
+    {
+      "name": "ahokusa-clear-shortest",
+      "date": {
+        "seconds": 1563788782,
+        "nanoseconds": 381000000
+      },
+      "datum": {
+        "category": "ahokusa",
+        "condition": "あほくさスライドパズルを最短でクリアする",
+        "count": 10,
+        "difficulty": "easy",
+        "first": "UA3H39U3T",
+        "id": "ahokusa-clear-shortest",
+        "title": "敵を華麗にバッタバッタやっつけるわけです"
+      }
+    },
+    {
+      "name": "voiperrobot",
+      "date": {
+        "seconds": 1565435580,
+        "nanoseconds": 289000000
+      },
+      "datum": {
+        "category": "voiperrobot",
+        "condition": "ボイパーロボットで遊ぶ",
+        "count": 16,
+        "difficulty": "easy",
+        "first": "U108E9FA7",
+        "id": "voiperrobot",
+        "title": "はっつくパンツ"
+      }
+    },
+    {
+      "name": "pocky",
+      "date": {
+        "seconds": 1554390000,
+        "nanoseconds": 0
+      },
+      "datum": {
+        "category": "pocky",
+        "condition": "pockyに反応される",
+        "count": 29,
+        "difficulty": "baby",
+        "first": "U04G7TL4P",
+        "id": "pocky",
+        "title": "はま寿司"
+      }
+    },
+    {
+      "name": "get-sushi",
+      "date": {
+        "seconds": 1554390000,
+        "nanoseconds": 0
+      },
+      "datum": {
+        "category": "sushi-bot",
+        "condition": "sushi-botから寿司をもらう",
+        "count": 34,
+        "difficulty": "baby",
+        "first": "U06MPLTFV",
+        "id": "get-sushi",
+        "title": "玉子"
+      }
+    },
+    {
+      "name": "chat",
+      "date": {
+        "seconds": 1554390000,
+        "nanoseconds": 0
+      },
+      "datum": {
+        "category": "basic",
+        "condition": "パブリックなチャンネルで初めて発言する",
+        "count": 93,
+        "counter": "chats",
+        "difficulty": "baby",
+        "first": "UGVE06DHU",
+        "id": "chat",
+        "title": "はじめまして!",
+        "value": 1
+      }
+    },
+    {
+      "name": "prime",
+      "date": {
+        "seconds": 1563513550,
+        "nanoseconds": 104000000
+      },
+      "datum": {
+        "category": "prime",
+        "condition": "素数大富豪で遊ぶ",
+        "count": 14,
+        "difficulty": "baby",
+        "first": "UA3H39U3T",
+        "id": "prime",
+        "title": "ピタゴラス"
+      }
+    }
+  ]
+}
