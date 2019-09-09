@@ -9,7 +9,7 @@ File.write("/tmp/flags/#{SecureRandom.hex(10)}.txt", ENV['FLAG'])
 server = WEBrick::HTTPServer.new :Port => 9292
 
 server.mount_proc '/' do |req, res|
-  path = req.path[1..-1].gsub("*", '')
+  path = req.path[1..-1].tr("*?[]{}", '')
 
   if req.path.end_with? '/'
     if path.include? '.'
