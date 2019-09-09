@@ -4,7 +4,8 @@ require 'fileutils'
 require 'securerandom'
 
 FileUtils.mkdir_p('/tmp/flags')
-FileUtils.mv('flag.txt', "/tmp/flags/#{SecureRandom.hex(10)}.txt")
+FileUtils.cp('flag.txt', "/tmp/flags/#{SecureRandom.hex(10)}.txt")
+FileUtils.rm('flag.txt')
 
 server = WEBrick::HTTPServer.new :Port => 9292
 
