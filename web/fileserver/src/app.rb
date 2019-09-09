@@ -3,6 +3,7 @@ require 'mimemagic'
 require 'fileutils'
 require 'securerandom'
 
+File.mkdir_p('/tmp/flags')
 FileUtils.mv('flag.txt', "/tmp/flags/#{SecureRandom.hex(10)}.txt")
 
 server = WEBrick::HTTPServer.new :Port => 9292
