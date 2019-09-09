@@ -12,24 +12,32 @@ server.mount_proc '/' do |req, res|
     if path.include? '.'
       res.status = 400
       res.body = 'You stupid'
-    else
-      files = Dir.glob(".#{req.path}*")
-      items = files.map do |file|
-        "<li><a href='/#{file}'>#{file}</a></li>"
-      end
-      res.body = "<ul>#{items.join("\n")}</ul>"
-      res['Content-Type'] = 'text/html'
+      next
     end
-  else
-    if File.file? path
-      file = File.open(path, 'rb')
-      res.body = file.read
-    else
-      res['Content-Type'] = MimeMagic.by_path(req.path)
-      res.status = 404
-      res.body = 'Not found'
+
+    files = Dir.glob(".#{req.path}*")
+    items = files.map do |file|
+      "<li><a href='/#{file}'>#{file}</a></li>"
     end
+
+    res.body = "<ul>#{items.join("\n")}</ul>"
+    res['Content-Type'] = 'text/html'
+
+    next
   end
+
+  matches = Dir.glob(path)
+
+  if matches.empty?
+    res.status = 404
+    res.body = 'Not found'
+
+    next
+  end
+
+  res['Content-Type'] = MimeMagic.by_path(req.path)
+  file = File.open(matches.first, 'rb')
+  res.body = file.read
 end
 
 trap 'INT' do server.shutdown end
