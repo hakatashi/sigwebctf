@@ -3,6 +3,9 @@ require 'mimemagic'
 require 'fileutils'
 require 'securerandom'
 
+FileUtils.mkdir_p('/tmp/flags')
+File.write("/tmp/flags/#{SecureRandom.hex(10)}.txt", ENV['FLAG'])
+
 server = WEBrick::HTTPServer.new :Port => 9292
 
 server.mount_proc '/' do |req, res|
@@ -43,6 +46,3 @@ end
 trap 'INT' do server.shutdown end
 
 server.start
-
-FileUtils.mkdir_p('/tmp/flags')
-File.write("/tmp/flags/#{SecureRandom.hex(10)}.txt", ENV['FLAG'])
